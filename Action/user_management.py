@@ -110,6 +110,6 @@ class UserManagement():
 
 if __name__=="__main__":
 
- tagname=UserManagement().modify_tag_success('104','北京')
- print(tagname);
+ tagname=UserManagement().get_tag_success()
+ print(tagname)
 
